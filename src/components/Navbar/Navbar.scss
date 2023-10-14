@@ -1,0 +1,15 @@
+@import "../../helpers/constants.styles.scss";
+@import "../../helpers/colors.styles.scss";
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: $sidebar-width;
+  height: $navbar-height;
+  display: flex;
+  align-items: center;
+  background-color: $background-primary;
+  width: calc(100% - $sidebar-width);
+  
+  @apply shadow-md;
+}
