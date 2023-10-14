@@ -9,5 +9,5 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 
-  @apply text-slate-50;
+  @apply text-slate-900;
 }
