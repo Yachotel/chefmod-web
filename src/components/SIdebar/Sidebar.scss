@@ -1,0 +1,18 @@
+@import "../../helpers/constants.styles.scss";
+@import "../../helpers/colors.styles.scss";
+.sidebar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: $sidebar-width;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: $background-primary;
+  padding: 20px;
+
+  @apply shadow-xl;
+
+  &__logo {
+    @apply text-2xl font-bold text-red-400;
+  }
+}

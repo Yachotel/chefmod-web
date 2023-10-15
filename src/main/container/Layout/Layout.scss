@@ -1,0 +1,13 @@
+@import "../../../helpers/constants.styles.scss";
+@import "../../../helpers/colors.styles.scss";
+
+.layout {
+  position: relative;
+  background-color: $background-secondary;
+
+  &__content {
+    padding-left: $sidebar-width;
+    padding-top: $navbar-height;
+    height: 100vh;
+  }
+}
